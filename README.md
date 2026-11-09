@@ -32,6 +32,10 @@ This repository is the project control plane: architecture decisions, integratio
 
 This is an architecture and delivery scaffold, not a production deployment. Service versions, authentication flow, hosting provider, domain and operational secrets must be validated before production.
 
+## First implementation: portal
+
+The initial mobile-first portal prototype lives in [`portal/`](portal/). It includes Romanian, Italian and Russian UI copy, responsive navigation, category discovery, a searchable demo listing preview and a PWA manifest. It is a frontend prototype only: authentication, real listings, Zulip and OpenClassify connections are not wired yet. See [portal setup](portal/README.md).
+
 See:
 - [Architecture](docs/ARCHITECTURE.md)
 - [Roadmap](docs/ROADMAP.md)
