@@ -1,0 +1,13 @@
+{
+  "name": "Moldoveni Italia",
+  "short_name": "Moldoveni",
+  "description": "Comunitatea moldovenilor din Italia și Moldova",
+  "lang": "ro",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f4ef",
+  "theme_color": "#10251f",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
